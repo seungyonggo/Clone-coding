@@ -1,0 +1,15 @@
+.box {
+  display: flex;
+  color: gray;
+  justify-content: space-around;
+}
+
+.first {
+  color: gray;
+}
+
+/* space-between을 지정하면 주축 방향 여유 공간을 flex 항목 사이의 공간에 균등 배분합니다.
+
+space-around는 시작선 및 끝선과 flex 항목간 공간도 균등 배분에 고려하므로 시작선 및 끝선과 flex 항목 간의 공간의 크기를 1로 배분한다면 flex 항목 사이의 공간은 2로 배분합니다.
+
+space-evenly로 지정하면 여유 공간을 flex 항목 사이의 공간 및 시작선 및 끝선과 flex 항목 간의 공간에 모두 균등하게 배분합니다. */
